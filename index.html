@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Call API</title>
+  </head>
+  <body>
+
+    <header class="bg-slate-800 text-white font-black py-5 px-4 flex justify-between items-center">
+      <p class=" text-3xl tracking-wide">C&eacute;sarGMEFA</p>
+      <section class="mr-6">
+        <a href="./public/favourites.html" class="mr-4 underline hover:text-blue-700">Favourites</a>
+      </section>
+    </header>
+
+    <main>
+      <h1 class="text-4xl text-center mt-12 font-bold tracking-tight text-gray-900">
+        Called to <span class="text-blue-700 font-extrabold">API</span> dogs
+      </h1>
+
+
+      <section class="flex justify-center flex-col max-w-2xl mx-auto py-16 px-4 sm:py-18 sm:px-6 lg:max-w-7xl lg:px-8">
+      
+        <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Random Dogs Photos</h2>
+        <h3 id="spanError"></h3>
+
+        <section id="listImagesRandom" class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        </section>
+
+        <button id="loadMore" type="button"
+            class="bg-green-500 mt-5 py-2 px-4 text-white font-medium rounded cursor-pointer hover:bg-green-400 focus:bg-green-600">
+            load more
+        </button>
+
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
