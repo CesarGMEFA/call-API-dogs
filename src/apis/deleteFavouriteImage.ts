@@ -1,6 +1,5 @@
 import Toastify from 'toastify-js'
 import "toastify-js/src/toastify.css"
-import { LoadFavouritesImages } from '../layout/LoadFavouritesImages'
 
 const API_IMAGES_FAVOURITE_DELETE = (favourite_id: string) => `https://api.thedogapi.com/v1/favourites/${favourite_id}`
 
