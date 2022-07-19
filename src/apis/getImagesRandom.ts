@@ -1,4 +1,4 @@
-const API_IMAGES_RANDOM = 'https://api.thedogapi.com/v1/images/search?limit=12&page=10&order=Desc'
+const API_IMAGES_RANDOM = 'https://api.thedogapi.com/v1/images/search?limit=8&page=10&order=Desc'
 
 const getImagesRandom = async () => {
   const response = await fetch(API_IMAGES_RANDOM)
