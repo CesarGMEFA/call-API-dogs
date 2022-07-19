@@ -16,7 +16,7 @@ export default defineConfig({
 			emptyOutDir: true,
 			input: {
 				main: resolve(_dirname, "index.html"),
-				public: resolve(_dirname, "public/favourites.html"),
+				public: resolve(_dirname, "favourites.html"),
 			},
 		},
 	},
