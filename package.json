@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/node": "^18.0.6",
     "@types/toastify-js": "^1.11.1",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
