@@ -5,7 +5,11 @@ const DogCard = (data: Typed[], callback: Function) => {
   const listImagesRandom = document.querySelector<HTMLElement>('#listImagesRandom')
 
   data.map((fact: any) =>{
-    const breedData = fact.breeds[0]
+    
+    let breedData = undefined;
+    if (fact.breeds) {
+      breedData = fact.breeds[0]
+    }
 
     let breedName = ''
     let bredForInfo = ''
